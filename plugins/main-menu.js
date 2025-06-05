@@ -19,8 +19,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
  👑 Owner : *${config.OWNER_NAME}*
  ⚙️ Prefix : *[${config.PREFIX}]*
- 🌐 Platform : *Heroku*
- 📦 Version : *4.0.0*
  ⏱️ Runtime : *${runtime(process.uptime())}*
 
 ╭━━〔 📥 *DOWNLOAD MENU* 〕━━┈⊷
@@ -341,14 +339,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/h1yqnzbd/BLACK.png' },
+                image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/YFXxqRPr/Whats-App-Image-2025-06-05-at-6-36-57-AM.jpg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363207624903731@newsletter',
+                        newsletterJid: '',
                         newsletterName: config.BOT_NAME,
                         serverMessageId: 143
                     }
