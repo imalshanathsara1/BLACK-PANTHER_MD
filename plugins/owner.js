@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/h1yqnzbd/BLACK.png' }, // Image URL from your request
+            image: { url: 'https://i.ibb.co/YFXxqRPr/Whats-App-Image-2025-06-05-at-6-36-57-AM.jpg' }, // Image URL from your request
             caption: `*BLACK PANTHER_MD🐱‍👤*
 
 ┃◈┃• *Here is the owner details*
@@ -43,7 +43,7 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363207624903731@newsletter',
+                    newsletterJid: '',
                     newsletterName: 'BLACK PANTHER 🤖',
                     serverMessageId: 143
                 }            
