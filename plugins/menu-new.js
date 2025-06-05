@@ -49,7 +49,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/h1yqnzbd/BLACK.png' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/YFXxqRPr/Whats-App-Image-2025-06-05-at-6-36-57-AM.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
