@@ -114,7 +114,7 @@ const port = process.env.PORT || 8000;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `*Hello there black panther User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet black panther md  WhatsApp Bot.\n\n *Thanks for using black panther_Md \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \n NO \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\n NO RELESE \n\n> ©POWERD BY THOHIED MD  \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/h1yqnzbd/BLACK.png` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/YFXxqRPr/Whats-App-Image-2025-06-05-at-6-36-57-AM.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
