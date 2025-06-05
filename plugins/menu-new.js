@@ -13,24 +13,19 @@ cmd({
     try {
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
  👑 Owner : *${config.OWNER_NAME}*
- 🤖 Baileys : *Multi Device*
- 🖥️ Type : *NodeJs*
- 🚀 Platform : *Heroku*
  ⚙️ Mode : *[${config.MODE}]*
  🔣 Prefix : *[${config.PREFIX}]*
-┃◈╭─┴❍「 *BOT STATUS* 」❍
-┃◈├•➊  📥 *Download Menu*
-┃◈├•➋  👥 *Group Menu*
-┃◈├•➌  🤣 *Fun Menu*
-┃◈├•➍  👑 *Owner Menu*
-┃◈├•➎  🤖 *AI Menu*
-┃◈├•➏  🎎 *Anime Menu*
-┃◈├•➐  ♻️ *Convert Menu*
-┃◈├•➑  📌 *Other Menu*
-┃◈├•➒  💔 *Reactions Menu*
-┃◈├•➊⓿ 🏫 *Main Menu*
-┃◈╰─┬─★─☆──♪♪─❍
-┃◈╰─┬────────────●●►
+「 *BOT STATUS* 」❍
+•➊  📥 *Download Menu*
+•➋  👥 *Group Menu*
+•➌  🤣 *Fun Menu*
+•➍  👑 *Owner Menu*
+•➎  🤖 *AI Menu*
+•➏  🎎 *Anime Menu*
+•➐  ♻️ *Convert Menu*
+•➑  📌 *Other Menu*
+•➒  💔 *Reactions Menu*
+•➊⓿ 🏫 *Main Menu*
 ┃◈╭─┴────────────●●►
 ┃◈├•ʀᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ sᴇʟᴇᴄᴛ
 ┃◈╰──────────────●●►
@@ -42,7 +37,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363207624903731@newsletter',
+                newsletterJid: '',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
